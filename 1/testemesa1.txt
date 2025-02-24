@@ -1,0 +1,13 @@
+teste 1:
+
+ano = 30
+mes = 10
+dia = 10
+idade em dias = 11260
+
+teste 2:
+
+ano = 20
+mes = 2
+dia = 20
+idade em dias = 7380

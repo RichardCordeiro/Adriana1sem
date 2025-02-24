@@ -1,0 +1,9 @@
+teste 1:
+ano atual = 2025
+ano nasc = 2007
+result = pode votar
+
+teste 2:
+ano atual = 2025
+ano nasc = 2008
+result = não pode votar

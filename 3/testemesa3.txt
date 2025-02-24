@@ -1,0 +1,9 @@
+teste1:
+salario = 1000
+percentual = 5
+result = 1050
+
+teste1:
+salario = 1000
+percentual = 10
+result = 1100

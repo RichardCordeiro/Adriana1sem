@@ -1,0 +1,3 @@
+teste6:
+F: 212
+result: 100

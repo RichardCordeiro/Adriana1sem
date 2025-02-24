@@ -1,0 +1,9 @@
+teste 1:
+valor = 0
+result = positivo
+teste 2:
+valor = 1
+result = positivo
+teste 3:
+valor = -1
+result = negativo

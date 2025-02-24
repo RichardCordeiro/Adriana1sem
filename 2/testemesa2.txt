@@ -1,0 +1,13 @@
+teste1:
+total =  10
+branco = 5
+nulo = 3
+valido = 2
+result = 50%, 30%, 20%
+
+teste2:
+total =  20
+branco = 5
+nulo = 5
+valido = 10
+result = 25%, 25%, 50%

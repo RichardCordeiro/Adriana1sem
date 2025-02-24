@@ -1,0 +1,3 @@
+teste1:
+custo = 1000
+valor = 1730

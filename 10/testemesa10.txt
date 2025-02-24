@@ -1,0 +1,9 @@
+teste 1:
+a1 = 10
+a2 = 10
+result = aprovado
+
+teste 2:
+a1 = 5
+a2 = 5
+result = reprovado

@@ -1,0 +1,9 @@
+teste 1:
+valor: 11
+result = maior
+teste 2:
+valor: 9
+result = menor
+teste 3:
+valor: 10
+result = igual

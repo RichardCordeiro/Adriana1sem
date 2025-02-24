@@ -1,0 +1,7 @@
+teste 1:
+qtd = 11
+result = 14.29999
+
+teste 2:
+qtd = 12
+result = 12
