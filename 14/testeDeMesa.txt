@@ -1,0 +1,9 @@
+teste1:
+valor 1 = 1
+valor 2 = 5
+result = 4 horas
+
+teste2:
+valor 1 = 20
+valor 2 = 22
+result = 2 horas

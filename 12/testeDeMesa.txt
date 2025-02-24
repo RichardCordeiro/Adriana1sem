@@ -1,0 +1,9 @@
+teste1:
+valor 1 = 11
+valor 2 = 2
+result = 11 é maior
+
+teste2:
+valor 1 = 1
+valor 2 = 3
+result = 3 é maior

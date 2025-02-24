@@ -1,0 +1,9 @@
+teste1:
+horas mes:160
+salario por hora: 12
+result = 1920,00
+
+teste2:
+horas mes:161
+salario por hora: 10
+result = 1615,00
