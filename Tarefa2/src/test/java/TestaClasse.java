@@ -1,13 +1,13 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-import roupas.Camiseta;
-import roupas.Bone;
-import roupas.Shorts;
-import roupas.Vestido;
-import roupas.Vestuario;
+// import roupas.Camiseta;
+// import roupas.Bone;
+// import roupas.Shorts;
+// import roupas.Vestido;
+// import roupas.Vestuario;
 import contas.Fracao;
 
-public class TestaClasse {
+public class TestaClasse { 
     public static void main(String[] args) {
         /*Scanner scanner = new Scanner(System.in);
         
