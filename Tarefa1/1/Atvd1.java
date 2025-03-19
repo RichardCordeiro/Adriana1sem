@@ -19,3 +19,4 @@ public class Atvd1{
        System.out.print(idade);
     }
 }
+
