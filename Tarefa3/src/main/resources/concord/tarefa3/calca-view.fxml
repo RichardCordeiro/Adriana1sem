@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="concord.tarefa3.controllers.CalcaController" prefWidth="600" prefHeight="400">
+    <children>
+        <Label text="Calça" layoutX="200" layoutY="20" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+        <Label layoutX="50" layoutY="80" text="Tipo:"/>
+        <TextField fx:id="txtTipo" layoutX="150" layoutY="75" prefWidth="200"/>
+
+        <Label layoutX="50" layoutY="120" text="Tamanho:"/>
+        <TextField fx:id="txtTamanho" layoutX="150" layoutY="115" prefWidth="200"/>
+
+        <Label layoutX="50" layoutY="160" text="Cor:"/>
+        <TextField fx:id="txtCor" layoutX="150" layoutY="155" prefWidth="200"/>
+
+        <Label layoutX="50" layoutY="200" text="Tecido:"/>
+        <TextField fx:id="txtTecido" layoutX="150" layoutY="195" prefWidth="200"/>
+
+        <Button layoutX="60" layoutY="240" onAction="#criarCalca" text="Criar Calça" />
+        <Button layoutX="237.0" layoutY="240.0" onAction="#dobrarCalca" text="Dobrar Calça" />
+        <Button layoutX="429.0" layoutY="240.0" onAction="#vestirCalca" text="Vestir Calça" />
+
+
+        <TextArea fx:id="textResultado" layoutX="50" layoutY="280" prefWidth="500" prefHeight="100"/>
+
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="380.0" layoutY="40.0" pickOnBounds="true">
+            <image>
+                <Image url="@imagens/calcas.jpeg" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

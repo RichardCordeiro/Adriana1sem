@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="concord.tarefa3.controllers.MainController">
+    <children>
+        <TabPane layoutX="10" layoutY="10" prefWidth="780" prefHeight="580" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Camiseta">
+                    <content>
+                        <fx:include source="camiseta-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Boné">
+                    <content>
+                        <fx:include source="bone-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Vestido">
+                    <content>
+                        <fx:include source="vestido-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Chapéu">
+                    <content>
+                        <fx:include source="chapeu-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Shorts">
+                    <content>
+                        <fx:include source="shorts-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Calça">
+                    <content>
+                        <fx:include source="calca-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Tênis">
+                    <content>
+                        <fx:include source="tenis-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Saia">
+                    <content>
+                        <fx:include source="saia-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Jaqueta">
+                    <content>
+                        <fx:include source="jaqueta-view.fxml" />
+                    </content>
+                </Tab>
+                <Tab text="Mochila">
+                    <content>
+                        <fx:include source="mochila-view.fxml" />
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

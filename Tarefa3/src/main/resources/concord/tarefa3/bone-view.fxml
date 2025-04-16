@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="concord.tarefa3.controllers.BoneController">
+    <children>
+        <Label layoutX="200" layoutY="20" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Boné" />
+
+        <Label layoutX="50" layoutY="80" text="Cor:" />
+        <TextField fx:id="txtCor" layoutX="150" layoutY="75" prefWidth="200" />
+
+        <Label layoutX="50" layoutY="120" text="Estilo:" />
+        <TextField fx:id="txtEstilo" layoutX="150" layoutY="115" prefWidth="200" />
+
+        <Label layoutX="50" layoutY="160" text="Tamanho:" />
+        <TextField fx:id="txtTamanho" layoutX="150" layoutY="155" prefWidth="200" />
+
+        <Label layoutX="50" layoutY="200" text="Marca:" />
+        <TextField fx:id="txtMarca" layoutX="150" layoutY="195" prefWidth="200" />
+
+        <Button layoutX="60" layoutY="240" onAction="#criarBone" text="Criar Boné" />
+        <Button layoutX="237.0" layoutY="240.0" onAction="#lavarBone" text="Lavar Boné" />
+        <Button layoutX="429.0" layoutY="240.0" onAction="#vestirBone" text="Vestir Boné" />
+
+        <TextArea fx:id="textResultado" layoutX="50" layoutY="280" prefHeight="100" prefWidth="500" />
+
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="380.0" layoutY="40.0" pickOnBounds="true">
+         <image>
+            <Image url="@imagens/bones.jpeg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

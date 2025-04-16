@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400" prefWidth="600" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="concord.tarefa3.controllers.TenisController">
+    <children>
+        <Label layoutX="200" layoutY="20" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Tênis" />
+
+        <Label layoutX="50" layoutY="80" text="Cor:" />
+        <TextField fx:id="txtCor" layoutX="160.0" layoutY="76.0" prefWidth="200" />
+
+        <Label layoutX="50" layoutY="120" text="Tamanho (número):" />
+        <TextField fx:id="txtTamanho" layoutX="160.0" layoutY="115" prefHeight="25.0" prefWidth="200.0" />
+
+        <Label layoutX="50" layoutY="160" text="Marca:" />
+        <TextField fx:id="txtMarca" layoutX="160.0" layoutY="156.0" prefWidth="200" />
+
+        <Label layoutX="50" layoutY="200" text="É esportivo?" />
+        <CheckBox fx:id="chkEsportivo" layoutX="160.0" layoutY="200.0" />
+
+        <Button layoutX="60" layoutY="240" onAction="#criarTenis" text="Criar Tênis" />
+        <Button layoutX="237.0" layoutY="240.0" onAction="#limparTenis" text="Limpar Tênis" />
+        <Button layoutX="429.0" layoutY="240.0" onAction="#calcarTenis" text="Calçar Tênis" />
+
+
+        <TextArea fx:id="textResultado" layoutX="50" layoutY="280" prefHeight="100" prefWidth="500" />
+
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="380.0" layoutY="40.0" pickOnBounds="true">
+            <image>
+                <Image url="@imagens/tenis.jpeg" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
