@@ -18,6 +18,4 @@ public class Vestido {
     public String getTamanho() { return tamanho; }
     public String getTecido() { return tecido; }
     public boolean isTemEstampa() { return temEstampa; }
-
-    
 }
