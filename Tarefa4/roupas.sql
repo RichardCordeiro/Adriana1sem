@@ -1,0 +1,85 @@
+drop database roupas;
+
+create database roupas;
+use roupas;
+
+CREATE TABLE jaqueta (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cor VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    tecido VARCHAR(100) NOT NULL,
+    marca VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE camiseta (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cor VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    tecido VARCHAR(100) NOT NULL,
+    marca VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE chapeu (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    marca VARCHAR(50) NOT NULL,
+    cor VARCHAR(50) NOT NULL,
+    material VARCHAR(100) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE bone (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cor VARCHAR(50) NOT NULL,
+    estilo VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    marca VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE mochila (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    marca VARCHAR(100) NOT NULL,
+    litros INT NOT NULL,
+    cor VARCHAR(50) NOT NULL,
+    tem_compartimento_notebook BOOLEAN NOT NULL
+);
+
+CREATE TABLE calca (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    marca	 VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    cor VARCHAR(50) NOT NULL,
+    tecido VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE tenis (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    marca VARCHAR(100) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    cor VARCHAR(50) NOT NULL,
+    material VARCHAR(100) NOT NULL,
+    esportivo BOOLEAN NOT NULL
+);
+
+CREATE TABLE shorts (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    tecido VARCHAR(100) NOT NULL,
+    cor VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    marca VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE saia (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cor VARCHAR(50) NOT NULL,
+    tecido VARCHAR(100) NOT NULL,
+    comprimento DOUBLE NOT NULL,
+    plissada BOOLEAN NOT NULL
+);
+
+CREATE TABLE vestido (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cor VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(10) NOT NULL,
+    tecido VARCHAR(100) NOT NULL,
+    marca VARCHAR(100) NOT NULL
+);
